@@ -6,47 +6,38 @@ body {
 }
 
 .navbar {
-    margin: 0 auto 25px auto;
     background-color: #ffffff;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
     border-bottom-color: #cccccc;
 }
 
-.navbar-brand {
-    width: 960px;
+.d-flex {
     font-family: Georgia, Times, "Times New Roman", serif;
-    color: #ffffff;
+    font-size: 24px;
     background-color: #4aaaa5;
 }
 
-.nav-item {
-    color: #777777;
-}
-
-.container {
-    background-color: #ffffff;
-    border-color: #dddddd;
-    width: 960px;
-    margin-right: auto;
-    margin-left: auto;
-    overflow: auto;
-    padding-bottom: 20px;
-    margin-bottom: 150px;
+.card {
+    max-width: 55em;
 }
 
 h1 {
     font-family: Georgia, Times, "Times New Roman", serif;
-    color:#4aaaa5;
-    font-weight: bold;
-    width: 960px;
-    margin: 20px;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: #cccccc;
-    padding: 20px 20px 20px 0;
+    font-size: 24px;
+    color: #4aaaa5;   
 }
 
-p {
-    color: #777777; 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
