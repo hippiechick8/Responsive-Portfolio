@@ -26,8 +26,12 @@ h1 {
     color: #4aaaa5;   
 }
 
+.card-columns {
+    column-count: 2;
+}
+
 .btn {
-    background-color: #4aaaa5;
+    margin-top: 210px;
 }
 
 
